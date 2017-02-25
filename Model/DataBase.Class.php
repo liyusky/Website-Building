@@ -31,11 +31,11 @@ class DataBase
     protected function chooseBase($Mark)
     {
         if ($mark) {            /* 生产环境 */
-            $_dbType        = 'mysql';
-            $_host          = '59.110.6.77:3306';
-            $_dbName        = 'bdm252590573_db';
-            $this->username = 'bdm252590573';
-            $this->password = 'LIYUSKY19941104';
+            $_dbType        = 'xxxxxxxx';
+            $_host          = 'xxxxxx';
+            $_dbName        = 'xxxxx';
+            $this->username = 'xxx';
+            $this->password = 'xxxxx';
         }
         else {                  /* 调试环境 */
             $_dbType        = 'mysql';
